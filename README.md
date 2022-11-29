@@ -18,3 +18,7 @@ Instruction for running:
 
 FYI: The application runs on port 3001, make sure the port is available before running the application.
 
+For checking data in database:
+select * from satisfactions; -- for checking mood/satisfaction of user.
+select * from questions; -- for checking list of questions.
+select * from feedbacks; -- for checking user's feedback (rating and comment) for different questions.
